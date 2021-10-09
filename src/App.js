@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
 import Inventory from './components/Inventory/Inventory';
@@ -10,6 +10,7 @@ import Shop from './components/Shop/Shop';
 function App() {
   return (
     <div>
+      <h1>hello error</h1>
       <Router>
         <Header></Header>
         <Switch>
